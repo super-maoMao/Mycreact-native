@@ -18,7 +18,7 @@ export default class Girl extends Component {
                 <Text style={styles.text}
                     onPress={()=>{
                         this.state.onCallBack('Gay')
-                        this.props.navigator.pop()
+                        this.props.navigator.pop();
                     }}
                 >回赠</Text>
 			</View>
